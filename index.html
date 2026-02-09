@@ -1000,6 +1000,14 @@
             }
         }
 
+        .logo-photo {
+            width: 150px;
+            height: auto;
+            border-radius: 12px;
+            object-fit: cover;
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+        }
+
         .hero-photo {
             width: 220px;
             height: auto;
@@ -1009,6 +1017,10 @@
         }
 
         @media (max-width: 768px) {
+            .logo-photo {
+                width: 120px;
+            }
+
             .hero-photo {
                 width: 180px;
                 margin: 0 auto 24px;
@@ -1023,7 +1035,7 @@
          ============================================ -->
     <header id="navbar">
         <div class="logo-badge">
-            <img src="assets/images/letycialocha/logo - Editado.png" alt="Letycia Andrade Locha — Engenheira de Dados & Analytics" class="hero-photo">
+            <img src="assets/images/letycialocha/logo - Editado.png" alt="Letycia Andrade Locha — Engenheira de Dados & Analytics" class="logo-photo">
         </div>
         <nav>
             <ul>
