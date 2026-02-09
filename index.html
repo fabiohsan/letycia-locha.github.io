@@ -358,6 +358,7 @@
            ============================================ */
         #about {
             background: rgba(17, 34, 64, 0.3);
+            padding-inline: clamp(0.75rem, 2vw, 2rem);
         }
 
         .about-content {
@@ -370,6 +371,7 @@
             color: var(--text-slate);
             line-height: 1.8;
             max-width: 68ch;
+            margin-inline: auto;
         }
 
         .about-text p {
@@ -383,6 +385,8 @@
            ============================================ */
         #approach {
             background: rgba(10, 25, 47, 0.4);
+            padding-inline: clamp(0.75rem, 2vw, 2rem);
+            margin-top: 0.75rem;
         }
 
         .approach-intro {
@@ -392,12 +396,14 @@
             font-size: 1.05rem;
             line-height: 1.9;
             text-wrap: pretty;
+            margin-inline: auto;
         }
 
         .approach-grid {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             gap: 2rem;
+            padding-inline: clamp(0.25rem, 1vw, 0.75rem);
         }
 
         .approach-card {
